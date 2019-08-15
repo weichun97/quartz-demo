@@ -23,6 +23,6 @@
 修改 job_entity 表的数据后，需要刷新定时器，否则不会生效
 
 - 刷新全部定时任务  
-http://localhost:8080/refresh/all
+http://localhost:8082/refresh/all
 - 刷新指定 id 的定时任务  
-http://localhost:8080/refresh/{id}
+http://localhost:8082/refresh/{id}
